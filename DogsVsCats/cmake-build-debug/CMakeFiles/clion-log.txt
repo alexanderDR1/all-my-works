@@ -1,0 +1,4 @@
+C:\Users\Lotus\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /cygdrive/c/Projects/FromLessons/DogsVsCats
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Projects/FromLessons/DogsVsCats/cmake-build-debug

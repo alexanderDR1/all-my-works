@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/AlgoSystem.dir/main.cpp.o  -o AlgoSystem.exe -Wl,--out-implib,libAlgoSystem.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

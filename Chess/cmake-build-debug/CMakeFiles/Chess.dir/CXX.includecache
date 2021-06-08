@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Projects/FromLessons/Lessons21-24/Board.cpp
+Board.h
+/cygdrive/c/Projects/FromLessons/Lessons21-24/Board.h
+Piece.h
+/cygdrive/c/Projects/FromLessons/Lessons21-24/Piece.h
+
+/cygdrive/c/Projects/FromLessons/Lessons21-24/Board.h
+Piece.h
+/cygdrive/c/Projects/FromLessons/Lessons21-24/Piece.h
+vector
+-
+
+/cygdrive/c/Projects/FromLessons/Lessons21-24/Piece.h
+vector
+-
+definitions.h
+/cygdrive/c/Projects/FromLessons/Lessons21-24/definitions.h
+
+/cygdrive/c/Projects/FromLessons/Lessons21-24/definitions.h
+iostream
+-
+

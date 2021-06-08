@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/DogsVsCats.dir/main.cpp.o CMakeFiles/DogsVsCats.dir/Animal.cpp.o CMakeFiles/DogsVsCats.dir/Dog.cpp.o CMakeFiles/DogsVsCats.dir/Cat.cpp.o  -o DogsVsCats.exe -Wl,--out-implib,libDogsVsCats.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

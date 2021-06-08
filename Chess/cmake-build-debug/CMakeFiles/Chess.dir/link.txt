@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/Chess.dir/main.cpp.o CMakeFiles/Chess.dir/Board.cpp.o CMakeFiles/Chess.dir/Piece.cpp.o  -o Chess.exe -Wl,--out-implib,libChess.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

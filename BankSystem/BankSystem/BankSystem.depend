@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1599490315 source:c:\users\hystou\3d objects\fromlessons\banksystem\worker.cpp
+	"Worker.h"
+
+1599490712 c:\users\hystou\3d objects\fromlessons\banksystem\worker.h
+	<string>
+	"Worker.h"
+	"Client.h"
+	<iostream>
+	<vector>
+
+1599490517 source:c:\users\hystou\3d objects\fromlessons\banksystem\banksystem.cpp
+	"BankSystem.h"
+	<iostream>
+
+1599221920 c:\users\hystou\3d objects\fromlessons\banksystem\banksystem.h
+	"Client.h"
+	"Worker.h"
+	<vector>
+
+1597669249 c:\users\hystou\3d objects\fromlessons\banksystem\client.h
+	<iostream>
+	<string>
+
+1597669249 source:c:\users\hystou\3d objects\fromlessons\banksystem\client.cpp
+	"Client.h"
+	"BankSystem.h"
+
+1597669249 source:c:\users\hystou\3d objects\fromlessons\banksystem\main.cpp
+	<iostream>
+	"BankSystem.h"
+

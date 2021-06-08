@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/BankSystem.dir/main.cpp.o CMakeFiles/BankSystem.dir/Client.cpp.o CMakeFiles/BankSystem.dir/Worker.cpp.o CMakeFiles/BankSystem.dir/BankSystem.cpp.o  -o BankSystem.exe -Wl,--out-implib,libBankSystem.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

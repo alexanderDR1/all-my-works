@@ -1,0 +1,3 @@
+/cygdrive/c/Projects/FromLessons/DogsVsCats/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Projects/FromLessons/DogsVsCats/cmake-build-debug/CMakeFiles/DogsVsCats.dir
+/cygdrive/c/Projects/FromLessons/DogsVsCats/cmake-build-debug/CMakeFiles/edit_cache.dir

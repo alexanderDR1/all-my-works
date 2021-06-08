@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Projects/FromLessons/DogsVsCats/Animal.cpp
+Animal.h
+/cygdrive/c/Projects/FromLessons/DogsVsCats/Animal.h
+
+/cygdrive/c/Projects/FromLessons/DogsVsCats/Animal.h
+

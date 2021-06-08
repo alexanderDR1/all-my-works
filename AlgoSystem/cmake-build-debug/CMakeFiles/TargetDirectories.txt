@@ -1,0 +1,3 @@
+/cygdrive/c/Projects/FromLessons/AlgoSystem/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Projects/FromLessons/AlgoSystem/cmake-build-debug/CMakeFiles/AlgoSystem.dir
+/cygdrive/c/Projects/FromLessons/AlgoSystem/cmake-build-debug/CMakeFiles/edit_cache.dir

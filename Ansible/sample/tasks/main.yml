@@ -1,0 +1,9 @@
+---
+- name: Install Nginx
+  become: yes
+  apt:
+    pkg: nginx
+    state: present
+    update_cache: true
+  notify:
+    - Start Nginx

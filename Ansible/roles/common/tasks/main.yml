@@ -1,0 +1,8 @@
+---
+# tasks file for common
+  name: role of vim and zip
+  become: true
+  apt:
+    name: ['vim', 'zip']
+    update_cache: true
+    state: present

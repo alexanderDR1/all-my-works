@@ -1,0 +1,13 @@
+---
+  - hosts:  all
+    become: yes
+    tasks:
+     - name: start vim		 
+       become: true 
+       apt: name=vim  state=present	 
+     - name: start zip		 
+       become: true 
+       apt: name=zip  state=present
+    
+     
+      

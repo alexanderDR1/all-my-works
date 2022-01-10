@@ -1,7 +1,3 @@
-//
-// Created by Lotus on 17/08/2020.
-//
-
 #include "Cat.h"
 #include <iostream>
 

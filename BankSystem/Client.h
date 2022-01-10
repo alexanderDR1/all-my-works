@@ -1,7 +1,3 @@
-//
-// Created by Lotus on 05/07/2020.
-//
-
 #ifndef BANKSYSTEM_CLIENT_H
 #define BANKSYSTEM_CLIENT_H
 

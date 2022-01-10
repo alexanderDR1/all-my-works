@@ -1,6 +1,3 @@
-//
-// Created by lesscomplex on 09/03/2020.
-//
 
 #ifndef CHESS_DEFINITIONS_H
 #define CHESS_DEFINITIONS_H

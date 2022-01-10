@@ -1,7 +1,3 @@
-//
-// Created by Lotus on 17/08/2020.
-//
-
 #include "Dog.h"
 #include <iostream>
 

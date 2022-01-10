@@ -1,6 +1,3 @@
-//
-// Created by Lotus on 05/07/2020.
-//
 
 #include "Client.h"
 #include "BankSystem.h"

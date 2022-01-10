@@ -1,7 +1,3 @@
-//
-// Created by Lotus on 17/08/2020.
-//
-
 #ifndef DOGSVSCATS_ANIMAL_H
 #define DOGSVSCATS_ANIMAL_H
 

@@ -1,0 +1,1788 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: rgb(208, 210, 212);
+  margin: 0 auto;
+}
+/* -----------------portrait mobile------------------------ */
+@media (max-width: 479px) {
+  /* ------------------hdr----------------------- */
+  header {
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  nav {
+    display: flex;
+    padding: 0.5rem 0.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+
+  .nav-links ul li {
+    display: inline-block;
+    padding: 0.4rem;
+    margin-top: 0.3rem;
+  }
+
+  .nav-links ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 4.5vw;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    padding: 0.1em;
+  }
+
+  nav span {
+    font-size: 4vw;
+    margin-top: 0.8rem;
+    position: relative;
+    left: 1.2rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    place-content: center;
+    place-items: center;
+    letter-spacing: 0.1em;
+  }
+
+  i {
+    font-size: 8vw;
+    position: relative;
+    left: 0.7rem;
+    margin-top: 0.6rem;
+  }
+}
+/* ------------------------main container----------------------------------- */
+
+.main-container {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)),
+    url(./images/space1.jpg);
+  background-position: 40%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+}
+
+.info-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-top: 5rem;
+  gap: 1rem;
+  text-align: center;
+}
+
+.info-box h1 {
+  width: 100%;
+  background-image: linear-gradient(10deg, orange, purple);
+  padding: 0.5em;
+  text-transform: capitalize;
+  letter-spacing: 0.03em;
+  font-size: 6.3vw;
+}
+
+.info-box p {
+  width: 100%;
+  background-image: linear-gradient(10deg, orange, purple);
+  padding: 0.8em;
+  text-transform: capitalize;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 1.5rem;
+  font-size: 5vw;
+  line-height: 150%;
+}
+
+.form-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  padding: 0.2rem;
+  margin-top: 5rem;
+  margin-bottom: 6rem;
+  background-color: rgba(193, 187, 187, 0.2);
+}
+
+.form-des {
+  width: 100%;
+}
+
+.form-des h2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5em;
+  color: whitesmoke;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  margin-top: 2rem;
+  font-size: 7.3vw;
+}
+
+.form-des p {
+  text-align: center;
+  font-size: 5vw;
+  padding: 0.8em;
+  text-transform: capitalize;
+  color: whitesmoke;
+  word-spacing: 0.1em;
+  margin-top: 2rem;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  gap: 1.2em;
+  width: 90%;
+  padding: 2rem;
+}
+
+input {
+  font-size: 5vw;
+  line-height: 100%;
+}
+
+input::placeholder {
+  font-size: 1em;
+  text-align: center;
+}
+
+form a {
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: 4.5vw;
+  width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  top: 0.5rem;
+  background-color: black;
+  color: whitesmoke;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+} /* ------------main-container2---------------------- */
+
+.main-container2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.stars {
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+.main-container2 h1 {
+  width: 80%;
+  background-color: black;
+  color: aliceblue;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  font-size: 5vw;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  text-align: center;
+}
+
+.main-container2 h2 {
+  font-size: 5vw;
+  margin-top: 1.2rem;
+}
+
+.main-container2 p {
+  padding: 1em;
+  font-size: 4vw;
+  text-align: center;
+}
+
+.earth {
+  width: 100%;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  background-color: rgb(151, 151, 151);
+  text-transform: capitalize;
+  text-align: center;
+  padding: 2em;
+}
+
+.mars {
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 2em;
+}
+
+.moon {
+  width: 100%;
+  text-align: center;
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
+  background-color: rgb(151, 151, 151);
+  text-transform: capitalize;
+  padding: 2em;
+}
+
+.main-container2 img {
+  max-width: 100%;
+  height: auto;
+  clip-path: circle(34% at 53% 50%);
+}
+
+.earth img {
+  position: relative;
+  right: 1.5rem;
+}
+
+.mars img {
+  position: relative;
+  right: 1rem;
+}
+
+.moon img {
+  position: relative;
+  right: 1rem;
+}
+
+.about-nft {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-image: linear-gradient(
+      rgba(52, 53, 59, 0.3),
+      rgba(53, 55, 59, 0.3)
+    ),
+    url(./images/pink-moon.png);
+  background-attachment: scroll;
+  background-position: 53%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-nft h2 {
+  width: 100%;
+  letter-spacing: 0.1em;
+  font-size: 5vw;
+  word-spacing: 0.2em;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 0.6em;
+  color: white;
+  background: linear-gradient(200deg, orange, purple);
+}
+
+.about-nft p {
+  letter-spacing: 0.1em;
+  text-align: center;
+  word-spacing: 0.1em;
+  text-transform: capitalize;
+  padding: 2em;
+  line-height: 170%;
+  font-size: 4vw;
+  color: aliceblue;
+}
+
+/* ---------------main container 3----------------------------------- */
+.main-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 2rem;
+  position: relative;
+  left: 1.8rem;
+  gap: 1.5rem;
+}
+
+.main-container3 img {
+  width: 60%;
+  clip-path: circle(40% at 50% 50%);
+}
+
+.opinion1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  place-content: center;
+  place-items: center;
+  text-align: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 1em;
+}
+
+.opinion1 p {
+  font-size: 4vw;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+}
+
+.opinion1 h2 {
+  position: relative;
+  top: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.05em;
+  font-size: 5vw;
+}
+
+.line {
+  margin: auto;
+  margin-top: 4rem;
+  border: 1px solid black;
+  width: 90%;
+}
+
+.opinion2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  place-content: center;
+  place-items: center;
+  text-align: center;
+  width: 100%;
+  gap: 1rem;
+  padding: 1em;
+}
+
+.opinion2 p {
+  font-size: 4vw;
+  letter-spacing: 0.1em;
+  line-height: 150%;
+}
+
+.opinion2 h2 {
+  margin-left: 1.5rem;
+  text-transform: capitalize;
+  letter-spacing: 0.05em;
+  padding: 1em;
+  font-size: 5vw;
+}
+
+.opinion2 img {
+  position: relative;
+  top: 3.5%;
+}
+
+/* --------------------ftr-------------------------- */
+.allfoot {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+
+.foot {
+  width: 100%;
+  padding: 5rem;
+}
+
+.foot p {
+  font-size: 6vw;
+  width: 100%;
+  text-transform: capitalize;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin: auto;
+  padding-block: 1rem;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#madeby {
+  margin-bottom: 3rem;
+}
+
+.photos {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 4em;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.photos h2 {
+  margin-bottom: 2rem;
+}
+
+.down {
+  display: flex;
+  justify-content: space-around;
+}
+
+.down > a > .fa-brands {
+  color: purple;
+  font-size: 10vw;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.subscribe form {
+  text-align: center;
+  height: auto;
+}
+
+.subscribe form h3 {
+  text-align: center;
+  font-size: 5.5vw;
+  color: #fff;
+  margin-bottom: -3rem;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+
+}
+
+.subscribe form label {
+  text-align: center;
+  font-size: 5vw;
+  width: 100%;
+  padding: 5rem;
+  color: whitesmoke;
+  margin-bottom: -3rem;
+  text-transform: capitalize;
+
+}
+
+button {
+  border: 2px;
+  color: white;
+  background-color: silver;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding-inline: 6rem;
+  padding-block: 1rem;
+  font-size: 1.5rem;
+  position: relative;
+  left: 0.3rem;
+}
+
+/* -----------------portrait tablets------------ */
+@media (min-width: 480px) and (max-width: 1025px) {
+  header {
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  nav {
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+
+  .nav-links ul li {
+    display: inline-block;
+    padding: 0.4rem;
+    margin-top: 0.3rem;
+    position: relative;
+  }
+
+  .nav-links ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 3vw;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    padding-left: 0.5em;
+    position: relative;
+    right: 1rem;
+    top: 0.2rem;
+  }
+
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 0.3em;
+    display: block;
+    background: linear-gradient(10deg, orange, purple);
+    margin: auto;
+    transition: 0.5s;
+    position: relative;
+    right: 0.5rem;
+    top: 0.2rem;
+  }
+
+  .nav-links ul li:hover::after {
+    width: 80%;
+    position: relative;
+    right: 0.5rem;
+    top: 0.2rem;
+  }
+
+  nav span {
+    font-size: 3vw;
+    margin-top: 0.9rem;
+    position: relative;
+    left: 3.5rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    place-content: center;
+    place-items: center;
+    letter-spacing: 0.1em;
+  }
+
+  i {
+    font-size: 6vw;
+    position: relative;
+    margin-top: 0.7rem;
+    left: 3rem;
+  }
+
+  i:active {
+    color: rgb(57, 176, 108);
+  }
+
+  /* ------------------------main container----------------------------------- */
+  .main-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)),
+      url(./images/space1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 3.5rem;
+  }
+
+  .info-box {
+    width: 50%;
+    margin-top: 15rem;
+    margin-bottom: 25rem;
+    gap: 2rem;
+    place-items: center;
+    place-content: center;
+  }
+
+  .info-box h1 {
+    padding: 0.5em;
+    width: 100%;
+    font-size: 3.5vw;
+  }
+
+  .info-box p {
+    padding: 0.5em;
+    width: 100%;
+    margin-top: 1.5rem;
+    font-size: 3vw;
+    line-height: 150%;
+  }
+
+  .form-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+  }
+
+  .form-des {
+    width: 100%;
+  }
+
+  .form-des h2 {
+    margin-top: 1rem;
+    font-size: 3vw;
+    padding: 1.5rem;
+  }
+
+  .form-des p {
+    font-size: 2.8vw;
+    margin-top: 1rem;
+  }
+
+  form {
+    gap: 0.8em;
+    width: 60%;
+    padding: 1.5rem;
+  }
+
+  input {
+    font-size: 2vw;
+    line-height: 100%;
+  }
+
+  input::placeholder {
+    font-size: 1.2em;
+  }
+
+  form a {
+    padding: 0.5rem 0.5rem;
+    font-size: 2.4vw;
+    width: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+  }
+
+  form a:hover {
+    color: palevioletred;
+  }
+  /* ---------------------main container 2--------------------------------- */
+  .main-container2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .stars {
+    width: 100%;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+  }
+
+  .main-container2 h1 {
+    width: 80%;
+    background-color: black;
+    color: aliceblue;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 4vw;
+  }
+
+  .main-container2 h2 {
+    font-size: 5vw;
+    margin-top: 1.2rem;
+  }
+
+  .main-container2 p {
+    padding: 1em;
+    font-size: 4vw;
+    text-align: center;
+  }
+
+  .main-container2 img {
+    max-width: 60%;
+    height: auto;
+    clip-path: circle(34% at 53% 50%);
+  }
+
+  .about-nft {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(
+        rgba(52, 53, 59, 0.3),
+        rgba(53, 55, 59, 0.3)
+      ),
+      url(./images/pink-moon.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .about-nft h2 {
+    font-size: 4vw;
+  }
+
+  .about-nft p {
+    font-size: 3vw;
+  }
+
+  /* ---------------main container 3----------------------------------- */
+  .main-container3 {
+    display: flex;
+    width: 90%;
+    margin-top: 2rem;
+    gap: 1.5rem;
+    margin: auto;
+  }
+
+  .main-container3 img {
+    width: 40%;
+    clip-path: circle(40% at 50% 50%);
+  }
+
+  .opinion1 p {
+    font-size: 3.5vw;
+  }
+
+  .opinion1 h2 {
+    font-size: 4.5vw;
+  }
+
+  .opinion2 p {
+    font-size: 3.5vw;
+  }
+
+  .opinion2 h2 {
+    font-size: 4.5vw;
+  }
+
+  /* --------------------ftr-------------------------- */
+
+  .allfoot {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+  }
+
+  .foot {
+    width: 80%;
+    padding: 5rem;
+  }
+
+  .foot p {
+    font-size: 3.5vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin: auto;
+    padding-block: 1rem;
+  }
+
+  #madeby {
+    margin-bottom: 3rem;
+  }
+
+  .photos {
+    display: flex;
+    width: 100%;
+  }
+
+  .photos h2 {
+    margin-bottom: 2rem;
+  }
+
+  .down {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 4rem;
+  }
+
+  .down > a > .fa-brands {
+    color: purple;
+    font-size: 6vw;
+  }
+
+  .subscribe {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 4rem;
+  }
+
+  .subscribe form {
+    text-align: center;
+    width: 90%;
+  }
+
+  .subscribe form h3 {
+    text-align: center;
+    font-size: 3.5vw;
+  }
+
+  .subscribe form label {
+    text-align: center;
+    font-size: 3.5vw;
+    width: 100%;
+    padding: 5rem;
+  }
+
+  .subscribe form input {
+    text-align: center;
+    font-size: 3vw
+  }
+
+  button {
+    border: 2px;
+    color: white;
+    background-color: silver;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding-inline: 6rem;
+    padding-block: 1rem;
+    font-size: 2rem;
+  }
+}
+/* -----landscape tablet & part of pc / leptop screens-------- */
+@media (min-width: 941px) and (max-width: 1425px) and (orientation: landscape) {
+  header {
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  nav {
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+
+  .nav-links ul li {
+    display: inline-block;
+    padding: 0.4rem;
+    margin-top: 0.3rem;
+    position: relative;
+  }
+
+  .nav-links ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.7vw;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    padding-left: 0.5em;
+    position: relative;
+    right: 4rem;
+    top: 0.2rem;
+  }
+
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 0.4em;
+    display: block;
+    background: linear-gradient(10deg, orange, purple);
+    margin: auto;
+    transition: 0.5s;
+    position: relative;
+    right: 3.5rem;
+    top: 0.2rem;
+  }
+
+  .nav-links ul li:hover::after {
+    width: 80%;
+    position: relative;
+    right: 3.5rem;
+    top: 0.2rem;
+  }
+
+  nav span {
+    font-size: 1.7vw;
+    margin-top: 0.9rem;
+    position: relative;
+    left: 6rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    place-content: center;
+    place-items: center;
+    letter-spacing: 0.1em;
+  }
+
+  i {
+    font-size: 3vw;
+    position: relative;
+    margin-top: 0.7rem;
+    left: 5rem;
+  }
+
+  i:active {
+    color: rgb(57, 176, 108);
+  }
+
+  /* ------------------------main container----------------------------------- */
+
+  .main-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)),
+      url(./images/space1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 3.5rem;
+  }
+
+  .info-box {
+    width: 50%;
+    margin-top: 15rem;
+    margin-bottom: 25rem;
+    gap: 2rem;
+    place-items: center;
+    place-content: center;
+    position: relative;
+    right: 4.5rem;
+  }
+
+  .info-box h1 {
+    padding: 0.5em;
+    width: 70%;
+    font-size: 2.3vw;
+    animation-name: infobox;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    transition-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+
+  .info-box p {
+    padding: 0.5em;
+    width: 85%;
+    margin-top: 1.5rem;
+    font-size: 1.7vw;
+    line-height: 150%;
+    animation-name: infobox;
+    animation-duration: 6s;
+    animation-delay: 7s;
+    transition-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes infobox {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(25%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .form-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 10rem;
+    margin-bottom: 8rem;
+    margin: a;
+  }
+
+  .form-des {
+    width: 100%;
+  }
+
+  .form-des h2 {
+    margin-top: 1rem;
+    font-size: 1.8vw;
+    padding: 1.5rem;
+  }
+
+  .form-des p {
+    font-size: 1.7vw;
+    margin-top: 1rem;
+  }
+
+  form {
+    gap: 0.8em;
+    width: 60%;
+    padding: 1.5rem;
+  }
+
+  input {
+    font-size: 1.5vw;
+    line-height: 100%;
+  }
+
+  input::placeholder {
+    font-size: 1em;
+  }
+
+  form a {
+    padding: 0.5rem 0.5rem;
+    font-size: 1.5vw;
+    width: 85%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+  }
+
+  form a:hover {
+    color: palevioletred;
+  }
+  /* ---------------------main container 2--------------------------------- */
+  .main-container2 {
+    display: flex;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .stars {
+    display: flex;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    justify-content: space-evenly;
+    transition: 1.2s;
+    box-sizing: border-box;
+  }
+
+  .stars:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
+  }
+
+  .main-container2 h1 {
+    width: 60%;
+    font-size: 2.5vw;
+  }
+
+  .main-container2 h2 {
+    font-size: 2.5vw;
+    margin-top: 1.2rem;
+  }
+
+  .main-container2 p {
+    padding: 1em;
+    font-size: 2vw;
+    text-align: center;
+    padding: 0.6em;
+  }
+
+  .main-container2 img {
+    max-width: 100%;
+    height: auto;
+    clip-path: circle(34% at 53% 50%);
+  }
+
+  .earth {
+    width: 30%;
+    background-color: rgb(208, 210, 212);
+    padding: auto;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .mars {
+    width: 30%;
+    padding: auto;
+  }
+
+  .moon {
+    width: 30%;
+    background-color: rgb(208, 210, 212);
+    padding: auto;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .moon img {
+    position: relative;
+    bottom: 2rem;
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .moon h2 {
+    position: relative;
+    bottom: 3.5rem;
+  }
+
+  .moon p {
+    width: 100%;
+    position: relative;
+    bottom: 3.5rem;
+  }
+
+  .about-nft {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(
+        rgba(52, 53, 59, 0.3),
+        rgba(53, 55, 59, 0.3)
+      ),
+      url(./images/pink-moon.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .about-nft h2 {
+    font-size: 2vw;
+  }
+
+  .about-nft p {
+    font-size: 1.5vw;
+  }
+
+  /* ---------------main container 3----------------------------------- */
+  .main-container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    }
+
+  .main-container3 img {
+    width: 50%;
+    clip-path: circle(40% at 50% 50%);
+  }
+
+  .opinion1 {
+    width: 45%;
+    order: 1;
+    }
+
+  .opinion1 p {
+    font-size: 1.6vw;
+  }
+
+  .opinion1 h2 {
+    position: relative;
+    top: 0.5rem;
+    font-size: 2vw;
+    padding: 1em;
+  }
+
+  .line {
+    border-left: 4px solid black;
+    align-self: center;
+    width: 0.1%;
+    height: 50vh;
+    order: 2;
+  }
+
+  .opinion2 {
+    width: 45%;
+    padding: 1em;
+    order: 3;
+  }
+
+  .opinion2 p {
+    font-size: 1.6vw;
+    position: relative;
+    bottom: 0.7rem;
+  }
+
+  .opinion2 h2 {
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+    font-size: 2vw;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .opinion2 img {
+    position: relative;
+    top: 1rem;
+  }
+
+  /* --------------------ftr-------------------------- */
+
+  .allfoot {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+  }
+
+  .foot {
+    width: 45%;
+    padding: 5rem;
+  }
+
+  .foot p {
+    font-size: 1.6vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 80%;
+    padding-block: 1rem;
+  }
+
+  #madeby {
+    margin-bottom: 3rem;
+  }
+
+  .photos {
+    width: 40%;
+    padding: 4em;
+    padding-right: 14rem;
+  }
+
+  .down {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .down > a > .fa-brands {
+    color: purple;
+    font-size: 4vw;
+    padding-left: 2rem;
+  }
+
+  .subscribe {
+    display: flex;
+    width: 50%;
+    padding-top: 4rem;
+  }
+
+  .subscribe form {
+    text-align: center;
+  }
+
+  .subscribe form h3 {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: -5rem;
+
+  }
+
+  .subscribe form label {
+    text-align: center;
+    font-size: 1.5vw;
+    width: 100%;
+    margin-bottom: -5rem;
+  }
+
+  button {
+    border: 2px;
+    color: white;
+    background-color: silver;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    font-size: 2rem;
+    position: relative;
+    left: 0.5rem;
+  }
+}
+/* -------------rest of all pc / leptop screens------------------- */
+@media (min-width: 1426px) {
+  /* ------------------hdr----------------------- */
+  header {
+    width: 100vw;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+
+  nav {
+    display: flex;
+    padding: 1rem 1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    flex: 1;
+    text-align: right;
+  }
+
+  .nav-links ul li {
+    display: inline-block;
+    padding: 0.4rem;
+    margin-top: 0.3rem;
+    position: relative;
+  }
+
+  .nav-links ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    text-transform: capitalize;
+    letter-spacing: 0.1em;
+    padding-left: 0.5em;
+    position: relative;
+    right: 6rem;
+    top: 0.2rem;
+  }
+
+  .nav-links ul li::after {
+    content: "";
+    width: 0%;
+    height: 0.4em;
+    display: block;
+    background: linear-gradient(10deg, orange, purple);
+    margin: auto;
+    transition: 0.5s;
+    position: relative;
+    right: 5.3rem;
+    top: 0.2rem;
+  }
+
+  .nav-links ul li:hover::after {
+    width: 80%;
+    position: relative;
+    right: 5.3rem;
+    top: 0.2rem;
+  }
+
+  nav span {
+    font-size: 1.5vw;
+    margin-top: 0.9rem;
+    position: relative;
+    left: 6rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    place-content: center;
+    place-items: center;
+    letter-spacing: 0.1em;
+  }
+
+  i {
+    font-size: 2.5vw;
+    position: relative;
+    margin-top: 0.7rem;
+    left: 5rem;
+  }
+
+  i:active {
+    color: rgb(57, 176, 108);
+  }
+
+  /* ------------------------main container----------------------------------- */
+
+  .main-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.3)),
+      url(./images/space1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 3.5rem;
+  }
+
+  .info-box {
+    width: 50%;
+    margin-top: 15rem;
+    margin-bottom: 25rem;
+    gap: 2rem;
+    place-items: center;
+    place-content: center;
+    position: relative;
+    right: 8rem;
+  }
+
+  .info-box h1 {
+    padding: 0.5em;
+    width: 65%;
+    font-size: 2vw;
+    animation-name: infobox;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    transition-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+
+  .info-box p {
+    padding: 0.5em;
+    width: 80%;
+    margin-top: 1.5rem;
+    font-size: 1.5vw;
+    line-height: 150%;
+    animation-name: infobox;
+    animation-duration: 6s;
+    animation-delay: 7s;
+    transition-timing-function: linear;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes infobox {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(30%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .form-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+  }
+
+  .form-des {
+    width: 100%;
+  }
+
+  .form-des h2 {
+    margin-top: 2rem;
+    font-size: 1.5vw;
+    padding: 2rem;
+  }
+
+  .form-des p {
+    font-size: 1.3vw;
+    margin-top: 2rem;
+  }
+
+  form {
+    gap: 1.2em;
+    width: 60%;
+    padding: 1.5rem;
+  }
+
+  input {
+    font-size: 1.2vw;
+    line-height: 100%;
+  }
+
+  input::placeholder {
+    font-size: 1em;
+  }
+
+  form a {
+    padding: 0.5rem 0.5rem;
+    font-size: 1.4vw;
+    width: 85%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-in-out;
+  }
+
+  form a:hover {
+    color: palevioletred;
+  }
+  /* ---------------------main container 2--------------------------------- */
+  .main-container2 {
+    display: flex;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .stars {
+    display: flex;
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+    justify-content: space-evenly;
+    transition: 1.2s;
+    box-sizing: border-box;
+  }
+
+  .stars:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.8);
+  }
+
+  .main-container2 h1 {
+    width: 60%;
+    font-size: 2vw;
+  }
+
+  .main-container2 h2 {
+    font-size: 2vw;
+    margin-top: 1.2rem;
+  }
+
+  .main-container2 p {
+    padding: 1em;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+
+  .main-container2 img {
+    max-width: 100%;
+    height: auto;
+    clip-path: circle(34% at 53% 50%);
+  }
+
+  .earth {
+    width: 30%;
+    background-color: rgb(208, 210, 212);
+    padding: 4em;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .mars {
+    width: 30%;
+    padding: 4em;
+  }
+
+  .moon {
+    width: 30%;
+    background-color: rgb(208, 210, 212);
+    padding: 2em;
+    border-top: none;
+    border-bottom: none;
+  }
+
+  .moon img {
+    position: relative;
+    bottom: 2rem;
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .moon h2 {
+    position: relative;
+    bottom: 3.5rem;
+  }
+
+  .moon p {
+    width: 100%;
+    position: relative;
+    bottom: 3.5rem;
+  }
+
+  .about-nft {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-image: linear-gradient(
+        rgba(52, 53, 59, 0.3),
+        rgba(53, 55, 59, 0.3)
+      ),
+      url(./images/pink-moon.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .about-nft h2 {
+    font-size: 1.5vw;
+  }
+
+  .about-nft p {
+    font-size: 1vw;
+  }
+
+  /* ---------------main container 3----------------------------------- */
+  .main-container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  .main-container3 img {
+    width: 40%;
+    clip-path: circle(40% at 50% 50%);
+  }
+
+  .opinion1 {
+    width: 45%;
+    order: 1;
+  }
+
+  .opinion1 p {
+    font-size: 1.2vw;
+  }
+
+  .opinion1 h2 {
+    position: relative;
+    top: 0.5rem;
+    font-size: 1.5vw;
+    padding: 1em;
+  }
+
+  .line {
+    border-left: 4px solid black;
+    margin: auto;
+    width: 0.1%;
+    height: 50vh;
+    order: 2;
+  }
+
+  .opinion2 {
+    width: 45%;
+    padding: 1em;
+    order: 3;
+  }
+
+  .opinion2 p {
+    font-size: 1.2vw;
+    position: relative;
+    bottom: 2.8rem;
+  }
+
+  .opinion2 h2 {
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+    font-size: 1.5vw;
+    position: relative;
+    bottom: 2rem;
+  }
+
+  .opinion2 img {
+    position: relative;
+    top: -1rem;
+  }
+
+  /* --------------------ftr-------------------------- */
+  .allfoot {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+  }
+
+  .foot {
+    width: 45%;
+    padding: 5rem;
+  }
+
+  .foot p {
+    font-size: 1.6vw;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 80%;
+    padding-block: 1rem;
+  }
+
+  #madeby {
+    margin-bottom: 3rem;
+  }
+
+  .photos {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 4em;
+    text-align: center;
+  }
+
+  .down {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .down > a > .fa-brands {
+    color: purple;
+    font-size: 4vw;
+  }
+
+  .subscribe {
+    display: flex;
+    width: 50%;
+    padding-top: 4rem;
+  }
+
+  .subscribe form {
+    text-align: center;
+  }
+
+  .subscribe form h3 {
+    text-align: center;
+    font-size: 2vw;
+    margin-bottom: -5rem;
+
+  }
+
+  .subscribe form label {
+    text-align: center;
+    font-size: 1.5vw;
+    width: 100%;
+    margin-bottom: -5rem;
+
+  }
+
+  button {
+    border: 2px;
+    color: white;
+    background-color: silver;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding-inline: 3rem;
+    padding-block: 1rem;
+    font-size: 2rem;
+    position: relative;
+    left: 0.3rem;
+    width: 50%;
+  }
+}

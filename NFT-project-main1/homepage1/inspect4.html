@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="inspect.css">
+  <link rel="stylesheet" href="inspect.js">
+  <title>Inspect</title>
+  <div class="bg"></div>
+  <div class="star-field">
+  <div class="layer"></div>
+  <div class="layer"></div>
+  <div class="layer"></div>
+</head>
+
+<body>
+  <script src="inspect.js"></script>   
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+  <div id="container">
+    <header>
+      <div class="left-header">
+        <a href="../home/updated.html"> <i class="fa-brands fa-sketch">Tree</i></a>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Explore</a></li>
+          <li><a class="dropdown-item" href="#">Stats</a></li>
+          <li><a class="dropdown-item" href="#">Create</a></li> 
+        </ul>
+      </div>
+      <div class="right-header">
+        <a href="../home/updated.html">Home</a>
+        <a href="../gallery_new_finalV3/main.html">Marketplace</a>
+        <a id="stats" href="#">Explore</a>
+        <!--  <a href="#"><i class="fa-solid fa-circle-user" style="color:black"></i></a>-->
+      </div>
+      <div class="dropdown1">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-wallet"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <h2>Connect your wallet Now</h2>
+          <li><a class="dropdown-item" href="#">🦊MetaMask</a></li>
+          <li><a class="dropdown-item" href="#">🛡Trust</a></li>
+          <li><a class="dropdown-item" href="#">👻Phantom</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="container-main">
+        <div class="left-m">
+          <div class="card">
+            <img src="4.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p>
+                <a class="btn btn-primary" data-bs-toggle="collapse"  href="#collapseExample" role="button"
+                  aria-expanded="false" aria-controls="collapseExample">
+                  About The NFT
+                </a>
+                <!-- 
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse1"
+                  data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Details
+                </button>
+              -->
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card-2 card-body">
+                  Because the contents of NFTs are publicly accessible, anybody can easily copy a file referenced by an
+                NFT.
+                </div>
+              </div>
+            </div>
+            <div class="card-body-4">
+              <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEx" aria-expanded="false" aria-controls="collapseExample">
+                  Details
+                </button>
+              </p>
+              <div class="collapse" id="collapseEx">
+                <div class="card card-body">
+                  Contract Address:               0x2953...4963 <br>
+                  Token ID:                       1015345630865979... <br>
+                  Token Standard:                 ERC-20 <br>
+                  Blockchain:                     Polygon <br>
+                  Metadata:                       Decentralized <br>
+                  Creator Earnings:               4% <br>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <h2 class="center">Recommended NFT's</h2>
+
+          <div class="reco-img" > <!-- style="max-width:500px -->
+            <img class="itsSlides" src="7.jpg">
+            <img class="itsSlides" src="moon.jpg">
+            <img class="itsSlides" src="5.png">
+          </div>
+
+          <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+              var i;
+              var x = document.getElementsByClassName("itsSlides");
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+              }
+              myIndex++;
+              if (myIndex > x.length) { myIndex = 1 }
+              x[myIndex - 1].style.display = "block";
+              setTimeout(carousel, 3000); // Change image every 3 seconds
+            }
+          </script>
+        </div>
+        <div class="right-m">
+          <div class="box-cost">
+            <h2>Philosophy</h2>
+            <i class="fa-solid fa-eye">760 views</i> <i class="fa-solid fa-star">344 Favorite</i>
+            <p>sale ends in november 7, 2023 at 12:00am</p>
+            <span>current price</span>
+            <p><i class="fa-brands fa-bitcoin"></i> 0.5 (10000$)</p>
+            <button type="button" class="btn btn-info">buy now</button> <button type="button" class="btn btn-light">Make
+              a offer</button>
+          </div>
+        </div>
+      </div>
+      <p class="offers">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExam"
+          aria-expanded="false" aria-controls="collapseExample">
+          Offers
+        </button>
+      </p>
+      <div class="collapse-1" id="collapseExam">
+        <div class="card card-body">
+          <i class="fa-solid fa-bars-staggered"></i>
+          <p>no have offers</p>
+        </div>
+      -->
+    </main>
+    <footer>
+      <div class="allfoot">
+        <div class="foot">
+          <h1>About Us</h1>
+          <p>
+            I am full-stack developer <br>
+            Alexander Kainov <br>
+          </p>
+          <h3>Tree🌲</h3>
+          <p>Copyright © 2022 Alexander</p>
+        </div>
+        <div class="photos">
+          <h2>Join our community </h2>
+          <div class="up">
+          </div>
+          <div class="down">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+          </div>
+        </div>
+        <div class="subscribe">
+          <form>
+            <h3>NEWSLETTER REGISTRATION</h3><br>
+            <label for="ptext">Subscribe today to receive the latest news</label><br><br>
+            <input type="text" name="email" placeholder="Enter email"><br><br>
+            <button>Submit</button><br><br>
+          </form>
+        </div>
+    </footer>
+  </div>
+</body>
+
+</html>

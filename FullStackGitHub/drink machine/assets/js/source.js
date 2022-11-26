@@ -1,7 +1,7 @@
-// משתנה שיכיל את הכסף בקופה
+// משתנה שמכיל את הכסף בקופה
 let credit = 0;
 
-// משתנים שיכילו את מ חירי הפחיות
+// משתנים שמכילים את מ חירי הפחיות
 const cola_price = 9;
 const fanta_price = 7;
 const zero_price = 8;
@@ -13,8 +13,6 @@ let fanta_qty = 10;
 let zero_qty = 10;
 let sprite_qty = 10;
 
-
-// אלמנטים שנעבוד איתם
 const screen = document.querySelector("#screen");
 const get_box = document.querySelector("#get_drink_final");
 const odef = document.querySelector("#odef");

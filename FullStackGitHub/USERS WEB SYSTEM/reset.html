@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+        <i class="fa fa-bars"></i>
+      </label>
+      <a href="#" class="logo">USERS</a>
+      <input type="checkbox" id="chkToggle"></input>
+      <ul class="main-nav" id="js-menu">
+        <li>
+          <a href="./index.html" class="nav-links">Login</a>
+        </li>
+        <li>
+          <a href="./Register.html" class="nav-links">Register</a>
+        </li>
+        <li>
+          <a href="./forgot.html" class="nav-links">Forgot Password</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div class="card">
+
+    <div class="card-details">
+
+      <p class="text-title">Reset Password</p>
+      <div class="input-group">
+
+        <label class="label">New Password</label>
+        <input autocomplete="off" name="user_new_pass" id="user_new_pass" class="input_2" type="password">
+        <label class="label">Reapet New Password</label>
+        <input autocomplete="off" name="user_new_pass_2" id="user_new_pass_2" class="input_3" type="password">
+      </div>
+
+      <button>Set New Password</button>
+
+    </div>
+    <p id="message"></p>
+
+  </div>
+
+
+  <script src="source.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="coins">
+            <img onclick="addSh(1)" src="./assets/img/money/1sh.png" alt="">
+            <img onclick="addSh(2)" src="./assets/img/money/2sh.png" alt="">
+            <img onclick="addSh(5)" src="./assets/img/money/5sh.png" alt="">
+            <img onclick="addSh(10)" src="./assets/img/money/10sh.png" alt="">
+            <p id="odef"></p>
+        </div>
+        <div class="machine">
+            <div class="display_caps">
+                <div class="row1">
+                    <div class="col1">
+                        <img src="./assets/img/drinks/cola_d.png" alt="">
+                    </div>
+                    <div class="col2">
+                        <img src="./assets/img/drinks/cola_d.png" alt="">
+                    </div>
+                    <div class="col3">
+                        <img src="./assets/img/drinks/cola_d.png" alt="">
+                    </div>
+                    <div class="col4">
+                        <img src="./assets/img/drinks/cola_d.png" alt="">
+                    </div>
+                    <div class="col5">
+                        <img src="./assets/img/drinks/cola_d.png" alt="">
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="col1">
+                        <img src="./assets/img/drinks/zero_d.png" alt="">
+                    </div>
+                    <div class="col2">
+                        <img src="./assets/img/drinks/zero_d.png" alt="">
+                    </div>
+                    <div class="col3">
+                        <img src="./assets/img/drinks/zero_d.png" alt="">
+                    </div>
+                    <div class="col4">
+                        <img src="./assets/img/drinks/zero_d.png" alt="">
+                    </div>
+                    <div class="col5">
+                        <img src="./assets/img/drinks/zero_d.png" alt="">
+                    </div>
+                </div>
+                <div class="row3">
+                    <div class="col1">
+                        <img src="./assets/img/drinks/fanta_d.png" alt="">
+                    </div>
+                    <div class="col2">
+                        <img src="./assets/img/drinks/fanta_d.png" alt="">
+                    </div>
+                    <div class="col3">
+                        <img src="./assets/img/drinks/fanta_d.png" alt="">
+                    </div>
+                    <div class="col4">
+                        <img src="./assets/img/drinks/fanta_d.png" alt="">
+                    </div>
+                    <div class="col5">
+                        <img src="./assets/img/drinks/fanta_d.png" alt="">
+                    </div>
+                </div>
+                <div class="row4">
+                    <div class="col1">
+                        <img src="./assets/img/drinks/sprite_d.png" alt="">
+                    </div>
+                    <div class="col2">
+                        <img src="./assets/img/drinks/sprite_d.png" alt="">
+                    </div>
+                    <div class="col3">
+                        <img src="./assets/img/drinks/sprite_d.png" alt="">
+                    </div>
+                    <div class="col4">
+                        <img src="./assets/img/drinks/sprite_d.png" alt="">
+                    </div>
+                    <div class="col5">
+                        <img src="./assets/img/drinks/sprite_d.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="user_interface">
+                <img src="./assets/img/drinks/Coca-cola_3d_logo.png" alt="">
+                <div class="screen">
+                    <span id="screen">00.00</span>
+                </div>
+                
+                <div class="choices">
+                    <div class="choice_1">
+                        <img onclick="choice_drink('cola')" src="./assets/img/drinks/coce.jpg" alt="">
+                    </div>
+                    <div class="choice_2">
+                        <img onclick="choice_drink('fanta')" src="./assets/img/drinks/fanta.logo.jpg" alt="">
+                    </div>
+                    <div class="choice_3">
+                        <img onclick="choice_drink('zero')" src="./assets/img/drinks/zero.jpg" alt="">
+                    </div>
+                    <div class="choice_4">
+                        <img onclick="choice_drink('sprite')" src="./assets/img/drinks/png-clipart-sprite-logo-coca-cola-fanta-brand-sprite-emblem-label-thumbnail.png"
+                        alt="">
+                    </div>
+                </div>
+                <div class="reset">
+                    <button onclick="reset()">עודף</button>
+                </div>
+            </div>
+            <div class="get_drink">
+                <div class="get_drink_box">
+                    <img onclick="getPahit()" id="get_drink_final" src="" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/js/source.js"></script>
+</body>
+
+</html>

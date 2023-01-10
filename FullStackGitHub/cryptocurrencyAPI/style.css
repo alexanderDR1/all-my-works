@@ -1,0 +1,6 @@
+table, th, td, tr {
+    border: 2px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    width: auto;
+}
